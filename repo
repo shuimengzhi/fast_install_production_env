@@ -1,0 +1,6 @@
+#------------------------------------
+ install epel repository
+#------------------------------------
+yum clean all
+yum -y update
+yum -y install epel-release dnf
